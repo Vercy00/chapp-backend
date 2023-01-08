@@ -1,0 +1,17 @@
+server:
+  port: 1101
+
+spring:
+  application:
+    name: chat
+  datasource:
+    username: 8YOkDFJa3qCee8o9
+    password: y4Z2DCOFLN3zVVGm
+    url: jdbc:postgresql://localhost:5433/8YOkDFJa3qCee8o9
+  jpa:
+    hibernate:
+      ddl-auto: 'create-drop'
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
